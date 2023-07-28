@@ -22,8 +22,8 @@
     "access": "public"
   },
   "scripts": {
-    "single": "npx lerna run build --scope=@safana/$packages",
-    "prepack": "npx lerna run test"
+    "single": "npx lerna run build --scope=@safana/$packages && test --skip-nx-cache",
+    "prepack": "npx lerna run test --skip-nx-cache"
   },
   "dependencies": {
     "@babel/core": "^7.22.9",
