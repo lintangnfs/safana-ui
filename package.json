@@ -13,7 +13,7 @@
         "packages/**/package-lock.json"
       ]
     }
-  },  
+  },
   "private": false,
   "workspaces": [
     "packages/*"
@@ -22,13 +22,13 @@
     "access": "public"
   },
   "scripts": {
-    "single": "npx lerna run build --scope=@safana/$packages && test --skip-nx-cache",
-    "prepack": "npx lerna run test --skip-nx-cache"
+    "single": "npx lerna run build --scope=@safana/$packages && test --skip-nx-cache"
   },
   "dependencies": {
     "@babel/core": "^7.22.9",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "semver": "^7.5.4"
   },
   "devDependencies": {
     "lerna": "^7.1.4"

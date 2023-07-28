@@ -7,7 +7,7 @@
   ],
   "author": "Phyllalintang <phyllalintang@gmail.com>",
   "homepage": "https://github.com/lintangnfs/safana-ui#readme",
-  "license": "ISC",
+  "license" :  "(MIT OR Apache-2.0)",
   "srcFile": "lib",
   "srcName": "button",
   "main": "dist/button.js",
@@ -37,6 +37,5 @@
   "devDependencies": {
     "jest": "^29.6.2",
     "typescript": "^5.1.6"
-  },
-  "gitHead": "dddfdab9e155831edae8eb2bf05328539004746b"
+  }
 }
