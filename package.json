@@ -4,6 +4,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
   "scripts": {
     "single": "npx lerna run build --scope=$packages",
     "prepack": "npx lerna run test"
