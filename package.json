@@ -5,7 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "single": "npx lerna run build --scope=$packages"
+    "single": "npx lerna run build --scope=$packages",
+    "prepack": "npx lerna run test"
   },
   "dependencies": {
     "@babel/core": "^7.22.9",
