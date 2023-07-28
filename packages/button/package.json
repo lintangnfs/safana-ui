@@ -1,5 +1,5 @@
 {
-  "name": "button",
+  "name": "@safana/button",
   "version": "1.0.3",
   "description": "button component",
   "keywords": [
@@ -37,5 +37,5 @@
     "jest": "^29.6.2",
     "typescript": "^5.1.6"
   },
-  "gitHead": "021183602ef9215d5a06df8217ea9e40d2d1086e"
+  "gitHead": "bc2c53a9d4ee6fbd2790bfdfe77c90261d43e95b"
 }
