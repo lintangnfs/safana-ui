@@ -1,11 +1,11 @@
-# `slider`
+# `button`
 
 > TODO: description
 
 ## Usage
 
 ```
-const slider = require('slider');
+const button = require('button');
 
 // TODO: DEMONSTRATE API
 ```
