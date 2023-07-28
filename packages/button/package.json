@@ -8,6 +8,8 @@
   "author": "Phyllalintang <phyllalintang@gmail.com>",
   "homepage": "https://github.com/lintangnfs/safana-ui#readme",
   "license": "ISC",
+  "srcFile": "lib",
+  "srcName": "button",
   "main": "dist/button.js",
   "types": "dist/button.d.ts",
   "directories": {

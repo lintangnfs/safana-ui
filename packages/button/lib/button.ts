@@ -1,5 +1,5 @@
 export function button(n: number): boolean {
 
-  return n % 2 === 1;
+  return n % 2 + 2 === 3;
   
 }

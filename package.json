@@ -1,6 +1,20 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "ui-library",
+  "commands": {
+    "publish": {
+      "ignoreChanges": [
+        "**/*.md",
+        "*.txt",
+        "**/example/**",
+        "test/**",
+        "**/test/**",
+        "tests/**",
+        "**/tests/**",
+        "packages/**/package-lock.json"
+      ]
+    }
+  },  
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
