@@ -1,13 +1,13 @@
 {
   "name": "@safana/button",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "description": "button component",
   "keywords": [
     "button"
   ],
   "author": "Phyllalintang <phyllalintang@gmail.com>",
   "homepage": "https://github.com/lintangnfs/safana-ui#readme",
-  "license" :  "(MIT OR Apache-2.0)",
+  "license": "(MIT OR Apache-2.0)",
   "srcFile": "lib",
   "srcName": "button",
   "main": "dist/button.umd.tsx",
