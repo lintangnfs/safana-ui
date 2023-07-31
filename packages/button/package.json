@@ -26,10 +26,6 @@
     "type": "git",
     "url": "git+https://github.com/lintangnfs/safana-ui.git"
   },
-  "scripts": {
-    "build": "tsc",
-    "test": "npx lerna run build --scope=button && jest"
-  },
   "browser": true,
   "bugs": {
     "url": "https://github.com/lintangnfs/safana-ui/issues"

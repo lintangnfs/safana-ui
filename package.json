@@ -14,7 +14,7 @@
       ]
     }
   },
-  "private": false,
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
@@ -22,15 +22,21 @@
     "access": "public"
   },
   "scripts": {
-    "single": "npx lerna run build --scope=@safana/$packages && test --skip-nx-cache"
+    "single": "lerna exec --scope @safana/$packages -- rollup -c=../../rollup.config.js --bundleConfigAsCjs"
   },
   "dependencies": {
     "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "@rollup/plugin-commonjs": "^25.0.3",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-typescript": "^11.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "semver": "^7.5.4"
   },
   "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
     "lerna": "^7.1.4"
   }
 }
