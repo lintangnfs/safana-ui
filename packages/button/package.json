@@ -10,7 +10,7 @@
   "license" :  "(MIT OR Apache-2.0)",
   "srcFile": "lib",
   "srcName": "button",
-  "main": "dist/button.js",
+  "main": "dist/button.umd.tsx",
   "types": "dist/button.d.ts",
   "directories": {
     "lib": "lib",
